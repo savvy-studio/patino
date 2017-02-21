@@ -375,6 +375,8 @@ input[type="button"] {
     .container .logo-f img {
       width: 32px; }
   .container .texto {
+    display: inline;
+    text-align: center;
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
@@ -383,6 +385,9 @@ input[type="button"] {
     position: absolute; }
     .container .texto p {
       font-size: 16.5px; }
+      .container .texto p span a {
+        color: white;
+        font-style: italic; }
       .container .texto p span.comming {
         margin-left: 25px;
         margin-right: 25px; }
