@@ -1,5 +1,6 @@
 $(document).ready(function(){
 	$('.fade').slick({
+		autoplaySpeed: 6000,
 		autoplay: true,
 		arrows: false,
 	  dots: false,

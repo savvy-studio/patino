@@ -371,12 +371,18 @@ input[type="button"] {
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
-    bottom: 48px; }
+    bottom: 33px; }
     .container .logo-f img {
       width: 32px; }
   .container .texto {
-    left: 10%;
-    bottom: 144px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 100px;
     position: absolute; }
     .container .texto p {
       font-size: 16.5px; }
+      .container .texto p span.comming {
+        margin-left: 25px;
+        margin-right: 25px; }
