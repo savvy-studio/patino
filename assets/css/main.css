@@ -391,7 +391,10 @@ input[type="button"] {
       .container .texto p span a {
         color: white;
         font-style: italic; }
+      .container .texto p .comming {
+        font-variant: small-caps; }
       .container .texto p span.comming {
+        letter-spacing: 2px;
         margin-left: 25px;
         margin-right: 25px; }
 
@@ -415,5 +418,17 @@ input[type="button"] {
       .texto-s p span a {
         color: white;
         font-style: italic; }
+      .texto-s p .comming {
+        font-variant: small-caps; }
+      .texto-s p span.comming {
+        letter-spacing: 2px; }
   .texto {
     display: none !important; } }
+
+@media (max-width: 440px) {
+  .texto-s p {
+    font-size: 13px !important; } }
+
+@media (max-width: 424px) {
+  .texto-s p {
+    font-size: 10px !important; } }
