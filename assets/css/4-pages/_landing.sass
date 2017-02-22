@@ -60,15 +60,18 @@
 		img
 			width: 32px
 
+	.texto-s
+		display: none
 	.texto
-		display: inline
+		display: block
 		text-align: center
-		left: 50%
+		width: 100%
+		left: 46%
 		transform: translateX(-50%)
 		bottom: 100px
 		position: absolute
 		p
-			font-size: 16.5px
+			font-size: 15px
 			span a
 				color: white
 				font-style: italic
@@ -76,3 +79,26 @@
 			span.comming
 				margin-left: 25px
 				margin-right: 25px
+
+@media(max-width: 1100px)
+	.texto
+		p
+			font-size: 13px !important
+
+@media(max-width: 968px)
+
+	.texto-s
+		display: block !important
+		text-align: center
+		width: 100%
+		left: 48%
+		transform: translateX(-50%)
+		bottom: 100px
+		position: absolute
+		p
+			font-size: 15px
+			span a
+				color: white
+				font-style: italic
+	.texto
+		display: none !important
